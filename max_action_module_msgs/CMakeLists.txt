@@ -2,7 +2,7 @@
 # Set minimum required version of cmake, project name and compile options
 ################################################################################
 cmake_minimum_required(VERSION 2.8.3)
-project(op3_walking_module_msgs)
+project(max_action_module_msgs)
 
 ################################################################################
 # Find catkin packages and libraries for catkin and system dependencies
@@ -21,13 +21,12 @@ find_package(catkin REQUIRED COMPONENTS
 ################################################################################
 add_message_files(
   FILES
-  WalkingParam.msg
+  StartAction.msg
 )
 
 add_service_files(
   FILES
-  GetWalkingParam.srv
-  SetWalkingParam.srv
+  IsRunning.srv
 )
 
 generate_messages(
