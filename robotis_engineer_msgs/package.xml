@@ -10,6 +10,5 @@
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>robotis_engineer_action_module_msgs</exec_depend>
   <exec_depend>robotis_engineer_walking_module_msgs</exec_depend>
-  <exec_depend>robotis_engineer_online_walking_module_msgs</exec_depend>
   <export><metapackage/></export>
 </package>
